@@ -12,7 +12,7 @@ A web application built to assign 3 unique promotional seat numbers to airline f
 
 ### 1. Prerequisites
 Ensure you have the following installed on your local machine:
-- PHP >= 8.3
+- PHP >= 8.3.14
 - Composer
 - Node.js >= 23.3.0 & npm
 
