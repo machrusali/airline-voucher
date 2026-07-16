@@ -45,3 +45,14 @@ Ensure you have the following installed on your local machine:
 ## Running Automated Feature Tests
 To run the automated endpoint integration tests for the backend, navigate to the `backend/` directory and execute:
 php artisan test
+
+
+---
+
+## Verification & Previews
+
+### 1. Application UI Preview
+![Application Demo](screenshots/app-demo.png)
+
+### 2. Automated Test Results (PASS)
+![Test Result](screenshots/test-passed.png)
