@@ -14,7 +14,7 @@ A web application built to assign 3 unique promotional seat numbers to airline f
 Ensure you have the following installed on your local machine:
 - PHP >= 8.3
 - Composer
-- Node.js >= 20 & npm
+- Node.js >= 23.3.0 & npm
 
 ### 2. Backend Setup (Laravel 13)
 1. Open your terminal and navigate to the backend directory:
