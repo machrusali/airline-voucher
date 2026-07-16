@@ -9,14 +9,18 @@ use App\Http\Requests\GenerateVoucherRequest;
 use App\Http\Resources\VoucherResource;
 use App\Models\Voucher;
 use App\Services\SeatGeneratorService;
+use Illuminate\Support\Carbon;
 
 class VoucherController extends Controller
 {
+
     public function check(CheckVoucherRequest $request)
     {
+        $formattedDate = Carbon::createFromFormat('d-m-Y', $request->date)->format('Y-m-d');
+
         $exists = Voucher::query()
             ->where('flight_number', $request->flightNumber)
-            ->whereDate('flight_date', $request->date)
+            ->whereDate('flight_date', $formattedDate)
             ->exists();
 
         return response()->json([
