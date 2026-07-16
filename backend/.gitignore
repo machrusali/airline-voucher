@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+.zed/
+.cursor/
+.nova/
+.phpactor.json
+
+# Composer
+/vendor
+auth.json
+
+# Node
+/node_modules
+
+# Build
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# Storage
+/storage/*.key
+/storage/pail
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+
+# Laravel
+/bootstrap/cache/*.php
+/bootstrap/cache/packages.php
+/bootstrap/cache/services.php
+
+# Misc
+_ide_helper.php
+Homestead.yaml
+Homestead.json
+.codex/
